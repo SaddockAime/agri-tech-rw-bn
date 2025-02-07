@@ -20,7 +20,7 @@ const app: Express = express();
 const PORT = process.env.PORT; 
 const server = createServer(app);
 
-const allowedOrigins = ["http://localhost:5000" , ""]; 
+const allowedOrigins = ["http://localhost:5000" , "https://agri-tech-rw-fn-001.netlify.app"]; 
 
 export const io = new Server(server, {
   cors: {
@@ -55,7 +55,7 @@ app.use("/api", router);
 app.get("**", (req: Request, res: Response) => {
   res.status(httpStatus.OK).json({
     status: httpStatus.OK,
-    message: "Welcome to the e-Commerce Ninjas BackEnd."
+    message: "Welcome to the Agri Tech BackEnd."
   });
 });
 

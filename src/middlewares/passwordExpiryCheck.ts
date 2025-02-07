@@ -26,7 +26,7 @@ const checkPasswordExpiration = async (req: ExtendedRequest, res: Response, next
 
     const now = new Date();
     const setting = await Settings.findOne({ where: { key: "PASSWORD_EXPIRATION_MINUTES" } });
-    const PASSWORD_EXPIRATION_MINUTES = setting ? Number(setting.value) : 90;
+    const PASSWORD_EXPIRATION_MINUTES = setting ? Number(setting.value) : 10000000000;
 
     const passwordExpirationDate = addMinutes(user.passwordUpdatedAt, PASSWORD_EXPIRATION_MINUTES);
     const minutesRemaining = Math.floor((passwordExpirationDate.getTime() - now.getTime()) / (1000 * 60));
