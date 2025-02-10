@@ -13,7 +13,7 @@ const DB_HOST_MODE: string = process.env.DB_HOST_TYPE || "remote";
 function getDbUri(): string {
   switch (NODE_ENV) {
     case "development":
-      return process.env.DATABASE_URL_PRO as string;
+      return process.env.DATABASE_URL_DEV as string;
     case "test":
       return process.env.DATABASE_URL_TEST as string;
     default:

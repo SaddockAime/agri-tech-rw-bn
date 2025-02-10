@@ -10,13 +10,7 @@ const commonDatabaseConfig = {
 const sequelizeConfig = {
   development: {
     ...commonDatabaseConfig,
-    url: process.env.DATABASE_URL_PRO,
-    dialectOptions: {
-      ssl: {
-        require: true,
-        rejectUnauthorized: false,
-      },
-    },
+    url: process.env.DATABASE_URL_DEV,
   },
   test: {
     ...commonDatabaseConfig,
