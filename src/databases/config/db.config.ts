@@ -16,6 +16,8 @@ function getDbUri(): string {
       return process.env.DATABASE_URL_DEV as string;
     case "test":
       return process.env.DATABASE_URL_TEST as string;
+    case "production":
+    return process.env.DATABASE_URL_PRO as string;
     default:
       return process.env.DATABASE_URL_PRO as string;
   }

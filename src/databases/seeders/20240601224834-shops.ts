@@ -3,54 +3,54 @@ import { shopFiveId, shopFourId, shopOneId, shopSixId, shopThreeId, shopTwoId, u
 
 const shopOne = {
     id: shopOneId,
-    name: "GadgetHub 250",
+    name: "AgriTools Depot",
     userId: userFourId,
-    description: "Your one-stop shop for the latest gadgets and electronics.",
+    description: "Your one-stop shop for the latest agricultural tools and equipment.",
     createdAt: new Date(),
     updatedAt: new Date()
 }
 
 const shopTwo = {
     id: shopTwoId,
-    name: "UrbanStyle Boutique",
+    name: "GreenThumb Supplies",
     userId: userSevenId,
-    description: "Bringing you the trendiest fashion and accessories in town.",
+    description: "Bringing you the best in seeds, fertilizers, and gardening supplies.",
     createdAt: new Date(),
     updatedAt: new Date()
 }
 
 const shopThree = {
     id: shopThreeId,
-    name: "SoleMates",
+    name: "FarmFresh Market",
     userId: userFourTeenId,
-    description: "Premium footwear for every step of your journey.",
+    description: "Premium produce and farm supplies for every season.",
     createdAt: new Date(),
     updatedAt: new Date()
 }
 
 const shopFour = {
     id: shopFourId,
-    name: "TechNest",
+    name: "Harvest Haven",
     userId: userSixId,
-    description: "Explore a world of cutting-edge electronics and accessories.",
+    description: "Explore a world of organic farming and sustainable agriculture.",
     createdAt: new Date(),
     updatedAt: new Date()
 }
 
 const shopFive = {
     id: shopFiveId,
-    name: "HomeEssentials",
+    name: "Rural Essentials",
     userId: userFiveId,
-    description: "Everything you need to make your house a home.",
+    description: "Everything you need to make your farm thrive.",
     createdAt: new Date(),
     updatedAt: new Date()
 }
 
 const shopSix = {
     id: shopSixId,
-    name: "ElectroMart",
+    name: "AgriMart",
     userId: userFiveTeenId,
-    description: "Your trusted source for all things electronic.",
+    description: "Your trusted source for all things agriculture.",
     createdAt: new Date(),
     updatedAt: new Date()
 }
