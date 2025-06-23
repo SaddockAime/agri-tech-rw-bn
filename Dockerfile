@@ -28,9 +28,9 @@ ENV NODE_ENV=development
 ENV DB_HOST_TYPE=local
 
 # Google OAuth environment variables
-ENV GOOGLE_CLIENT_ID=365455022372-d62b4uahub2s7b39akbi72rctachhoqg.apps.googleusercontent.com
-ENV GOOGLE_CLIENT_SECRET=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
-ENV SERVER_URL_PRO=http://localhost:5000
+ENV GOOGLE_CLIENT_ID=
+ENV GOOGLE_CLIENT_SECRET=
+ENV SERVER_URL_PRO=
 
 
 # copy your project in your work directory
